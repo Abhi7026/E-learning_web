@@ -1,0 +1,79 @@
+.layout{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height:90vh;
+}
+
+
+.Loginform{
+    display: flex;
+    justify-content:center;
+    align-items:flex-start;
+    flex-direction: column;
+    padding:20px;
+    border-radius: 25px;
+    border:2px solid #F2EAD3;
+    background-color: #02020232;
+}
+
+input{
+    padding:6px;
+    width:70%;
+    border-radius: 4px;
+    margin-right: 28px;
+    margin-bottom:30px ;
+    color:#F2EAD3;
+    background: none;
+    border:2px solid #F2EAD3;
+    border-radius: 5px;
+    line-break: normal;
+}
+
+label{
+    margin-right: 180px;
+    margin-bottom: 10px;
+    color: #F2EAD3;
+    font-weight:500;
+}
+
+h1{
+    color: #F2EAD3;
+    font-weight:500;
+    margin:5px;
+    margin-bottom: 70px;
+}
+.pi{
+    color: #F2EAD3;
+    font-weight:500;
+    margin-top: 50px;
+    margin-left:20%;
+}
+.pi:hover{
+border-bottom: 2px solid ;
+}
+
+.Loginbutton{
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: 600;
+    width: 100px;
+    padding: 8px 0;
+    color:#F2EAD3;
+    border:2px solid #F2EAD3;
+    background:local;
+  }
+
+  .Loginbutton:hover {
+    color:white;
+    cursor: pointer;
+    border:2px solid #ffffff;
+    background-color: tan;
+  }
+
+.buttondiv{
+    display: flex;
+   justify-content:space-between;
+   align-items:center;
+   width:75%;
+}
